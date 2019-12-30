@@ -1,0 +1,139 @@
+a {
+ color: #e9789f;
+ text-decoration: none;
+}
+a:hover {
+  color: #4d94ad;
+}
+body {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+hr {
+  border: dotted #d2ebe9 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+h1 {
+  color: #4d94ad;
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 5.625rem;
+  margin: 15px auto 0 auto;
+}
+h2 {
+  color: #4d94ad;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+h3 {
+  color: #45859c;
+  font-family: 'Quicksand', sans-serif;
+}
+p {
+  line-height: 2;
+}
+/*********TOP CONTAINER CLASS SELECTORS*******/
+.top-container {
+  background-color: #d2ebe9;
+  padding-top: 100px;
+  position: relative;
+}
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 350px;
+  height: 80px;
+  width: 80px;
+}
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+  height: 80px;
+  width: 80px;
+}
+.mountain {
+  height: 350px;
+  width: 350px;
+}
+/*********MIDDLE CONTAINER CLASS SELECTORS*******/
+.middle-container {
+  margin: 100px 0;
+}
+.alexandra-img {
+  background-color: #4d94ad;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+.btn {
+  background-color: #4d94ad;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #e9789f;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.intro {
+  margin: auto;
+  width: 50%;
+}
+.skills {
+  margin: 50px auto 50px auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+  text-align: left;
+}
+.computer-screen-img {
+  float: left;
+  padding-right: 20px;
+  width: 25%
+}
+.heart-img {
+  float: right;
+  padding-left: 20px;
+  width: 25%
+}
+.contact-me {
+  width: 40%;
+  margin: 50px auto;
+}
+/******BOTTOM CONTAINER CLASS SELECTORS********/
+.bottom-container {
+  background-color: #4d94ad;
+  padding: 50px;
+}
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+}
+.footer-link {
+  color: white;
+}
+.footer-link:hover {
+  color: #e9789f;
+}
